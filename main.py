@@ -15,7 +15,7 @@ x_change = segment_width + segment_margin
 y_change = 0
 
 class Segment(pygame.sprite.Sprite):
-    # constructor function
+    # constructor function" init
     def __init__(self, x, y):
         # cll the parent's constructor
         pygame.sprite.Sprite.__init__(self)
